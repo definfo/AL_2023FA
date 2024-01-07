@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T13:38:02.021Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="XVDGsgfidscBkqF027EM" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T14:38:21.550Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="3857pqRpNJecKrfqzOVG" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
-    <mxGraphModel dx="1553" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1656" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,10 +540,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-63" value="\( A \in \mathrm{M}_p(\mathbb{K}) \). On dit \(A\) est inversible si :&lt;br&gt;$$ \exists B \in \mathrm{M}_p(\mathbb{K}), A.B = B.A = I_p $$&lt;br&gt;On dit alors que \(B\) est l&#39;inverse de \(A\) et on note&lt;br&gt;$$ A^{-1} \overset{\mathrm{Not}}{=} B $$&lt;br&gt;On note&lt;br&gt;$$ \mathrm{GL}_p(\mathbb{K})~\text{l&#39;ensemble des matrices inversibles de}~\mathrm{M}_p(\mathbb{K}) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-62">
-          <mxGeometry y="30" width="570" height="270" as="geometry" />
+          <mxGeometry y="30" width="570" height="220" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-64" value="Si l&#39;inverse exists, alors il est unique et inversible." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-62">
-          <mxGeometry y="300" width="570" height="30" as="geometry" />
+          <mxGeometry y="250" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-117" value="\( A \in \mathrm{GL}_p(\mathbb{K}) \Leftrightarrow \mathrm{Ker} A = \{ 0_{p,1} \}&amp;nbsp;\Leftrightarrow \mathrm{rang} A = p \Leftrightarrow\) \(~\text{Les colonnes}~(C_1, \cdots, C_p)~\text{de}~A~\text{forment une base de}~\mathrm{M}_{p,1}(\mathbb{K})\)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-62">
+          <mxGeometry y="280" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-65" value="Propostion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
           <mxGeometry x="630" y="5620" width="570" height="100" as="geometry">
@@ -636,12 +639,15 @@
           <mxGeometry y="70" width="570" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-110" value="&lt;b&gt;Proposition !!!&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry x="630" y="6390" width="570" height="80" as="geometry">
+          <mxGeometry x="630" y="6390" width="570" height="130" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-109" value="$$&amp;nbsp;\mathrm{rang}(A) = r~ \Longleftrightarrow~A~\text{est équivalente à}~J_{n,p,r} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-110">
           <mxGeometry y="30" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-118" value="$$&amp;nbsp;\forall A \in \mathrm{M}_{n,p}(\mathbb{K}), \mathrm{rang}(^tA) =&amp;nbsp;\mathrm{rang}(A) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-110">
+          <mxGeometry y="80" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-113" value="&lt;b&gt;Propriété !!!&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
           <mxGeometry y="6510" width="570" height="170" as="geometry">
@@ -653,6 +659,65 @@
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-114" value="$$&amp;nbsp;\forall P \in \mathrm{GL}_p(\mathbb{K}),&amp;nbsp;\forall Q \in \mathrm{GL}_n(\mathbb{K}),\mathrm{rang}(A.P) = \mathrm{rang}(Q.A) = \mathrm{rang}(A) $$&lt;br&gt;\( \forall A \in \mathrm{M}_{n,p}(\mathbb{K}), \mathrm{rang}(^tA) = \mathrm{rang}(A) \)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-113">
           <mxGeometry y="70" width="570" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-120" value="&lt;b&gt;Proposition !!!&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="6560" width="570" height="220" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-119" value="&lt;b&gt;Les transformations élémentaires&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-120">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-121" value="Échange de deux colonne (lignes)&lt;br&gt;Multiplier une colonne (ligne) par une scalaire non nul&lt;br&gt;Ajouter une colonne (ligne) à une autre" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-120">
+          <mxGeometry y="60" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-123" value="&lt;b&gt;Les transformations moins élémentaires&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-120">
+          <mxGeometry y="120" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-122" value="Ajouter une colonne (ligne) par une combinaison linéaire des autres colonnes (lignes)&lt;br&gt;Permuter colonnes (lignes)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-120">
+          <mxGeometry y="150" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-124" value="Ne modifient pas le rang !" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-120">
+          <mxGeometry y="190" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-125" value="&lt;b&gt;Théorème du pivot généralisé de Gauss &lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="6730" width="570" height="210" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-128" value="Produit à gauche = manipulation des lignes&lt;br&gt;Produit à droite = manipulation des colonnes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-125">
+          <mxGeometry y="30" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-126" value="transvection-dilatation-permutation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-125">
+          <mxGeometry y="90" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-129" value="Rang : lignes et colonnes&lt;br&gt;Système d&#39;équations linéaires : lignes&lt;br&gt;Noyau : lignes&lt;br&gt;Image : colonnes" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-125">
+          <mxGeometry y="130" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-133" value="Forme p-linéaires" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="8110" width="570" height="170" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-134" value="La multiplication par une matrice inversible ou la transposition conserve le rang." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-135" value="$$&amp;nbsp;\forall P \in \mathrm{GL}_p(\mathbb{K}),&amp;nbsp;\forall Q \in \mathrm{GL}_n(\mathbb{K}),\mathrm{rang}(A.P) = \mathrm{rang}(Q.A) = \mathrm{rang}(A) $$&lt;br&gt;\( \forall A \in \mathrm{M}_{n,p}(\mathbb{K}), \mathrm{rang}(^tA) = \mathrm{rang}(A) \)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
+          <mxGeometry y="70" width="570" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-138" value="Chapitre 3" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="480" y="7770" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-139" value="Déterminant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-138">
+          <mxGeometry x="55" y="85" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-140" value="Permutation et groupe symétrique" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="7990" width="570" height="70" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-141" value="(Omit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-140">
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
