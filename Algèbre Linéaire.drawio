@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T12:51:12.491Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="kdrw1HBU7ntSYfN9-D1G" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T13:29:52.655Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="5vmg2cF8thvWuhqb3xJX" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
-    <mxGraphModel dx="1307" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1553" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -564,34 +564,81 @@
         <mxCell id="hLjxK593YsyA389L9R4K-76" value="&lt;b&gt;Changement de Base&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
           <mxGeometry y="180" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-77" value="$$&amp;nbsp;\mathrm{Mat}_{\mathscr{E}}(x) =&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} .&amp;nbsp;\mathrm{Mat}_{\mathscr{B}}(x) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
+        <mxCell id="hLjxK593YsyA389L9R4K-77" value="$$&lt;br&gt;\mathrm{Mat}_{\mathscr{E}}(x) =&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} .&amp;nbsp;\mathrm{Mat}_{\mathscr{B}}(x)&lt;br&gt;$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
           <mxGeometry y="210" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-75" value="$$&amp;nbsp;\mathrm{Mat}_{\mathscr{B}, \mathscr{B}&#39;}(f) = (P_{\mathscr{E}&#39;}^{\mathscr{B}&#39;})^{-1} .&amp;nbsp;\mathrm{Mat}_{\mathscr{E}, \mathscr{E}&#39;}(f) .&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
           <mxGeometry y="250" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-78" value="Noyau, Image, rang d&#39;une matrice" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry y="6160" width="570" height="240" as="geometry">
+          <mxGeometry y="6160" width="570" height="300" as="geometry">
             <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-80" value="&lt;b&gt;Noyau&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="30" width="570" height="30" as="geometry" />
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-81" value="$$&amp;nbsp;\mathrm{Ker}(A) \overset{\mathrm{Def}}{=} \{ X \in \mathrm{M}_{p,1}(\mathbb{K}), A.X = 0_{n,1} \} \subset \mathrm{M}_{p,1}(\mathbb{K}) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="60" width="570" height="40" as="geometry" />
+          <mxGeometry y="70" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-85" value="&lt;b&gt;Image&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="100" width="570" height="30" as="geometry" />
+          <mxGeometry y="120" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-86" value="$$&amp;nbsp;\mathrm{Im}(A) \overset{\mathrm{Def}}{=} \{ A.X,&amp;nbsp; X \in \mathrm{M}_{p,1}(\mathbb{K}) \}&amp;nbsp; \subset \mathrm{M}_{n,1}(\mathbb{K}) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="130" width="570" height="40" as="geometry" />
+          <mxGeometry y="160" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-87" value="&lt;b&gt;Rang&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="170" width="570" height="30" as="geometry" />
+          <mxGeometry y="210" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-88" value="$$&amp;nbsp;\mathrm{rang}(A) \overset{\mathrm{Def}}{=} \mathrm{dim~Im}(A) \leq \mathrm{min}(n,p) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
-          <mxGeometry y="200" width="570" height="40" as="geometry" />
+          <mxGeometry y="250" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-89" value="Matrices équivalentes et matrices semblables" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="5900" width="570" height="240" as="geometry">
+            <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-97" value="Deux matrices \(M\) et \(N\) de \(\mathrm{M}_{n,p}(\mathbb{K})\)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-89">
+          <mxGeometry y="30" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-90" value="&lt;b&gt;Équivalence (Représenter la même application linéaire)&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-89">
+          <mxGeometry y="80" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-91" value="$$ M \approx N \Leftrightarrow \exists P \in \mathrm{GL}_n(\mathbb{K}), \exists Q \in \mathrm{GL}_p(\mathbb{K}), N = P.M.Q $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-89">
+          <mxGeometry y="110" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-92" value="&lt;b&gt;Similitude (Représenter la même endomorphisme)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-89">
+          <mxGeometry y="160" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-93" value="$$M \sim N \Leftrightarrow&amp;nbsp;\exists P \in \mathrm{GL}_p(\mathbb{K}), N = P^{-1}.M.P $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-89">
+          <mxGeometry y="190" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-99" value="Définition d&#39;une relation sur un ensemble non vide（二元）关系" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="5800" width="570" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-100" value="réflexive, symétrique, transitive" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-99">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-102" value="Caractérisation du rang d&#39;une matrice" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="6180" width="570" height="180" as="geometry">
+            <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-103" value="Nous noterons \(J_{n,p,r}\) la matrice de \(\mathrm{M}_{n,p}(\mathbb{K})\) définie par :" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-102">
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-104" value="$$ J_{n,p,r} =&amp;nbsp;[a_{i,j}]_{(i,j) \in [[1,n]] \times [[1,p]]}~\text{où}~a_{i,j} = \left\{&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;amp;1~~\text{si}~i = j \leq r \\&lt;br&gt;&amp;amp;0~~\text{sinon}&lt;br&gt;\end{aligned} \right.&lt;br&gt;$$&lt;br&gt;avec \(r \in [[0, \mathrm{min}(n,p)]]\)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-102">
+          <mxGeometry y="70" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-110" value="&lt;b&gt;Proposition !!!&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="6390" width="570" height="80" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-109" value="$$&amp;nbsp;\mathrm{rang}(A) = r~ \Longleftrightarrow~A~\text{est équivalente à}~J_{n,p,r} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-110">
+          <mxGeometry y="30" width="570" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
