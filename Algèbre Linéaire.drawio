@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T07:10:51.185Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="U_I54JGXcAG-D4OD6LiY" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T07:39:51.083Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="33Q2e0CXv74MtizpxoZG" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
-    <mxGraphModel dx="1307" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1461" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SqtCPuBUiB2_FI0Xo8bG-1" value="Chapitre 1" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="400" y="120" width="240" height="200" as="geometry">
+          <mxGeometry x="480" y="120" width="240" height="200" as="geometry">
             <mxRectangle x="80" y="200" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -311,13 +311,13 @@
           <mxGeometry y="180" width="580" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-85" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Applications linéaires&lt;br&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1960" width="580" height="80" as="geometry" />
+          <mxGeometry x="620" y="1960" width="580" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-86" value="" style="triangle;html=1;whiteSpace=wrap;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-85" vertex="1">
           <mxGeometry x="20" y="20" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-91" value="Définition" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="2070" width="580" height="330" as="geometry" />
+          <mxGeometry x="620" y="2070" width="580" height="330" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-92" value="\( f: E \rightarrow E&#39;~~~~\forall (x, y) \in E^2, \forall (\lambda, \mu) \in \mathbb{K}^2, f(\lambda . x + \mu . y) = \lambda . f(x) + \mu . f(y) \)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-91" vertex="1">
           <mxGeometry y="30" width="580" height="50" as="geometry" />
@@ -338,7 +338,7 @@
           <mxGeometry y="280" width="580" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-98" value="Théorème de pivot de Gauss" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="2640" width="580" height="60" as="geometry">
+          <mxGeometry x="620" y="2640" width="580" height="60" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -346,7 +346,7 @@
           <mxGeometry y="30" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-100" value="&lt;b&gt;Théorème du rang&lt;/b&gt; ( \( E \) &lt;u&gt;&lt;b&gt;de dimension finie&lt;/b&gt;&lt;/u&gt; !!!)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="2730" width="580" height="60" as="geometry">
+          <mxGeometry x="620" y="2730" width="580" height="60" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -354,7 +354,7 @@
           <mxGeometry y="30" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-102" value="Proposition d&#39;images et de noyaux" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="2520" width="580" height="90" as="geometry">
+          <mxGeometry x="620" y="2520" width="580" height="90" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -365,15 +365,15 @@
           <mxGeometry y="60" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-105" value="&lt;b&gt;Factorisation des applications linéaires&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="3920" width="580" height="160" as="geometry">
+          <mxGeometry x="620" y="3920" width="580" height="160" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsxaBmDc6MS7xrfdTg8h-106" value="$$f \in \mathscr{L} (E, E&#39;),~~E = \mathrm{Ker} (f) \oplus F \Longrightarrow f|^{\mathrm{Im} (f)}_F~\text{est un isomorphisme entre}~F~\text{et}~Im(f)$$&lt;br&gt;&lt;br&gt;En dimension finie, on peut déduire le théorème du rang par la bijection \(\tilde{f}\) entre \(F~\text{et}~\mathrm{Im} (f)\)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-105" vertex="1">
+        <mxCell id="xsxaBmDc6MS7xrfdTg8h-106" value="$$f \in \mathscr{L} (E, E&#39;),~~E = \mathrm{Ker} (f) \oplus F \Longrightarrow f|^{\mathrm{Im} (f)}_F~\text{est un isomorphisme entre}~F~\text{et}~Im(f)$$&lt;br&gt;&lt;br&gt;En dimension finie, on peut déduire &lt;b&gt;le théorème du rang&lt;/b&gt; par la bijection \(\tilde{f}\) entre \(F~\text{et}~\mathrm{Im} (f)\)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-105" vertex="1">
           <mxGeometry y="30" width="580" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-107" value="Restriction, Co-restriction, Projection, Projecteur et Symétrie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="2820" width="580" height="940" as="geometry">
+          <mxGeometry x="620" y="2820" width="580" height="940" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -429,37 +429,61 @@
           <mxGeometry y="30" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-17" value="Chapitre 2" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry x="120" y="4320" width="240" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-18" value="Système Linéaire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-17">
-          <mxGeometry x="35" y="92.5" width="170" height="40" as="geometry" />
+          <mxGeometry x="480" y="4320" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-19" value="Matrice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-17">
-          <mxGeometry x="55" y="67.5" width="130" height="30" as="geometry" />
+          <mxGeometry x="55" y="85" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-20" value="Définition d&#39;une matrice (à n lignes et p colonnes)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry y="4600" width="600" height="970" as="geometry" />
+          <mxGeometry y="4600" width="570" height="700" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;On appelle &lt;i&gt;matrice&lt;/i&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; à &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(n\)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; lignes et &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(p\)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; colonnes &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\( (n,p) \in (\mathbb{N}^{*})^{2} \)&lt;/span&gt;, toute famille d&#39;éléments d&#39;un ensemble \(A\) représentée sous la forme d&#39;un tableau à &lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(n\)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; lignes et &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(p\)&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; colonnes entouré par des crochets :&lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{M} = [a_{i,j}]_{(i,j) \in [[1,n]] \times [[1,p]]} = \begin{bmatrix}&amp;nbsp; &lt;br&gt;&amp;nbsp; a_{1,1} &amp;amp; \cdots &amp;amp; a_{1,p} \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; a_{n,1} &amp;amp; \cdots &amp;amp; a_{n,p} &amp;nbsp;&lt;br&gt;\end{bmatrix} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="30" width="600" height="140" as="geometry" />
+          <mxGeometry y="30" width="570" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-24" value="L&#39;ensemble des matrices se note: \( \mathrm{M}_{n,p}(A) \) et s&#39;écrit comme \(\mathrm{M}_n(A)\) si \(n = p\)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="170" width="600" height="40" as="geometry" />
+          <mxGeometry y="170" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-27" value="&lt;b&gt;Matrice d&#39;un vecteur, d&#39;une application linéaire&lt;br&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="210" width="600" height="40" as="geometry" />
+          <mxGeometry y="210" width="570" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-28" value="1.&lt;br&gt;&lt;br&gt;\( E~\text{est un}~\mathbb{K} \text{-e.v.}~\text{de dimension finie}~p~,\mathscr{E}=(e_1, \cdot, e_p)~\text{une base de}~E~,x~\text{un vecteur de}~E\). On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(x\)&lt;i&gt; dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(x) \overset{\mathrm{Not}}{=} \begin{bmatrix} &amp;nbsp;&lt;br&gt;&amp;nbsp; x_1 \\&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; \vdots \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; x_p&amp;nbsp; &lt;br&gt;\end{bmatrix} \in&amp;nbsp;\mathrm{M}_{p,1}(\mathbb{K})~\text{où}~x = \sum_{k=1}^{n} x_k . e_k$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="250" width="600" height="180" as="geometry" />
+          <mxGeometry y="250" width="570" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-29" value="2.&lt;br&gt;&lt;br&gt;\( E, E&#39;~\text{sont deux}~\mathbb{K} \text{-e.v.}~\text{de dimension finie},\mathscr{E}=(e_1, \cdots, e_p)~\text{une base de}~E,\)\(\mathscr{E}&#39;=(e&#39;_1, \cdots, e&#39;_n)~\text{une base de}~E&#39;~,x~\text{un vecteur de}~E\).&lt;br&gt;On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans les bases&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;\(\mathscr{E}&#39;\)&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; et on note :&lt;br&gt;&lt;/span&gt;&lt;/font&gt;$$\mathrm{Mat}_{\mathscr{E}, \mathscr{E}&#39;}(f) =&lt;br&gt;\begin{bmatrix}&amp;nbsp; &lt;br&gt;&amp;nbsp; a_{1,1} &amp;amp; \cdots &amp;amp; a_{1,p} \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; a_{n,1} &amp;amp; \cdots &amp;amp; a_{n,p} &amp;nbsp;&lt;br&gt;\end{bmatrix}&amp;nbsp; \in&amp;nbsp;\mathrm{M}_{n,p}(\mathbb{K})~\text{où pour tout}~j \in [[1,p]], f(e_j) = \sum_{i=1}^n a_{i,j} . e&#39;_i&lt;br&gt;$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="430" width="600" height="180" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-29" value="2.&lt;br&gt;&lt;br&gt;\( E, E&#39;~\text{sont deux}~\mathbb{K} \text{-e.v.}~\text{de dimension finie},\mathscr{E}=(e_1, \cdots, e_p)~\text{une base de}~E,\)\(\mathscr{E}&#39;=(e&#39;_1, \cdots, e&#39;_n)~\text{une base de}~E&#39;~,x~\text{un vecteur de}~E\).&lt;br&gt;On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans les bases&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;\(\mathscr{E}&#39;\)&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; et on note :&lt;br&gt;&lt;/span&gt;&lt;/font&gt;$$\mathrm{Mat}_{\mathscr{E}, \mathscr{E}&#39;}(f) =&lt;br&gt;\begin{bmatrix}&amp;nbsp; &lt;br&gt;&amp;nbsp; a_{1,1} &amp;amp; \cdots &amp;amp; a_{1,p} \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; a_{n,1} &amp;amp; \cdots &amp;amp; a_{n,p} &amp;nbsp;&lt;br&gt;\end{bmatrix}&amp;nbsp; \in&amp;nbsp;\mathrm{M}_{n,p}(\mathbb{K})~\text{où pour tout}~j \in [[1,p]], f(e_j) = \sum_{i=1}^n a_{i,j} . e&#39;_i&lt;br&gt;$$&lt;br&gt;&lt;b&gt;!!! &lt;/b&gt;&lt;u&gt;&lt;b&gt;dimension p&lt;/b&gt;&lt;/u&gt; \(\rightarrow\) &lt;u&gt;&lt;b&gt;dimension n&lt;/b&gt;&lt;/u&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
+          <mxGeometry y="400" width="570" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-30" value="3.&lt;br&gt;&lt;br&gt;\( E~\text{est un}~\mathbb{K} \text{-e.v.}~\text{de dimension finie}~p~,\mathscr{E}=(e_1, \cdot, e_p)~\text{une base de}~E~,x~\text{un vecteur de}~E\). On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de x dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(x) \overset{\mathrm{Not}}{=} \begin{bmatrix} &amp;nbsp;&lt;br&gt;&amp;nbsp; x_1 \\&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; \vdots \\ &amp;nbsp;&lt;br&gt;&amp;nbsp; x_p&amp;nbsp; &lt;br&gt;\end{bmatrix} \in&amp;nbsp;\mathrm{M}_{p,1}(\mathbb{K})~\text{où}~x = \sum_{k=1}^{n} x_k . e_k$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="610" width="600" height="180" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-30" value="3.(Base canonique)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
+          <mxGeometry y="570" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-32" value="4.&lt;br&gt;&lt;br&gt;L&#39;endomorphisme : On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(f) \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E, E&#39;}}(f) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
-          <mxGeometry y="790" width="600" height="180" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-32" value="4.&lt;br&gt;&lt;br&gt;L&#39;endomorphisme : On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(f) \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E, E&#39;}}(f) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;rounded=0;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
+          <mxGeometry y="610" width="570" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-33" value="Propriété" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="5340" width="570" height="110" as="geometry">
+            <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-36" value="&lt;b&gt;Addition&lt;/b&gt; &lt;b&gt;et Multiplication externe&lt;/b&gt; (facile)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-33">
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-44" value="&lt;b&gt;Multiplication interne de deux matrices&lt;/b&gt; (important)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-33">
+          <mxGeometry y="70" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hLjxK593YsyA389L9R4K-29" target="hLjxK593YsyA389L9R4K-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="5085" />
+              <mxPoint x="600" y="5395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-45" value="&lt;b&gt;Isomorph&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="5510" width="570" height="140" as="geometry">
+            <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-46" value="$$ \Phi : \left\{&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;amp;\mathscr{L} (E, E&#39;) \rightarrow \mathrm{M}_{n,p} (\mathbb{K}) \\&lt;br&gt;&amp;amp;f \mapsto \mathrm{Mat}_{\mathscr{E, E&#39;}}(f)&lt;br&gt;\end{aligned} \right.&lt;br&gt;$$&lt;br&gt;Cela permet d&#39;identifier matrices et applications linéaires." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-45">
+          <mxGeometry y="30" width="570" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
