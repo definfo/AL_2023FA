@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T04:48:28.240Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="LWm2i3-1MH4EnH3jNUrd" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T05:22:59.345Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="a8WjZSgbqlnix4azRt5l" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
     <mxGraphModel dx="1242" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -364,13 +364,13 @@
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-104" value="\(&amp;nbsp;f~\text{est surjective}~ \Leftrightarrow \mathrm{Im}(f) = E&#39; \)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-102" vertex="1">
           <mxGeometry y="60" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xsxaBmDc6MS7xrfdTg8h-105" value="Factorisation des applications linéaires" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
-          <mxGeometry x="600" y="3920" width="580" height="60" as="geometry">
+        <mxCell id="xsxaBmDc6MS7xrfdTg8h-105" value="&lt;b&gt;Factorisation des applications linéaires&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
+          <mxGeometry x="600" y="3920" width="580" height="90" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xsxaBmDc6MS7xrfdTg8h-106" value="(Omit)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-105" vertex="1">
-          <mxGeometry y="30" width="580" height="30" as="geometry" />
+        <mxCell id="xsxaBmDc6MS7xrfdTg8h-106" value="$$f \in \mathscr{L} (E, E&#39;),~~E = \mathrm{Ker} (f) \oplus F \Longrightarrow f|^{\mathrm{Im} (f)}_F~\text{est un isomorphisme entre}~F~\text{et}~Im(f)$$" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="xsxaBmDc6MS7xrfdTg8h-105" vertex="1">
+          <mxGeometry y="30" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xsxaBmDc6MS7xrfdTg8h-107" value="Restriction, Co-restriction, Projection, Projecteur et Symétrie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" parent="1" vertex="1">
           <mxGeometry x="600" y="2820" width="580" height="940" as="geometry">
@@ -433,7 +433,23 @@
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-2" value="\(E, E&#39;, E&#39;&#39;\) sont trois \(\mathbb{K}\).e.v. &lt;u&gt;&lt;b&gt;de dimension finie&lt;/b&gt;&lt;/u&gt;, \(u \in \mathscr{L}(E, E&#39;), v \in \mathscr{L}(E&#39;, E&#39;&#39;)\), alors:&lt;br&gt;$$ \mathrm{rang}(v \circ u) + \mathrm{dim}~E&#39; \geq \mathrm{rang}(v) +&amp;nbsp;\mathrm{rang}(u) $$" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-1">
+        <mxCell id="hLjxK593YsyA389L9R4K-2" value="\(E, E&#39;, E&#39;&#39;\) sont trois \(\mathbb{K}\).e.v. &lt;u&gt;&lt;b&gt;de dimension finies&lt;/b&gt;&lt;/u&gt;, \(u \in \mathscr{L}(E, E&#39;), v \in \mathscr{L}(E&#39;, E&#39;&#39;)\), alors:&lt;br&gt;$$ \mathrm{rang}(v \circ u) + \mathrm{dim}~E&#39; \geq \mathrm{rang}(v) +&amp;nbsp;\mathrm{rang}(u) $$" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-1">
+          <mxGeometry y="30" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-3" value="Propriété de rangs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="4040" width="580" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-4" value="(Omit)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-3">
+          <mxGeometry y="30" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-5" value="Inclusion canonique" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="4130" width="580" height="90" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-6" value="$$ i_{F \subset E} \overset{Not}{=} ( id_{\tiny{E}} )_{\small{|F}} $$" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-5">
           <mxGeometry y="30" width="580" height="60" as="geometry" />
         </mxCell>
       </root>
