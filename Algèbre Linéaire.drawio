@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T13:29:52.655Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="5vmg2cF8thvWuhqb3xJX" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T13:38:02.021Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="XVDGsgfidscBkqF027EM" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
     <mxGraphModel dx="1553" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -570,6 +570,9 @@
         <mxCell id="hLjxK593YsyA389L9R4K-75" value="$$&amp;nbsp;\mathrm{Mat}_{\mathscr{B}, \mathscr{B}&#39;}(f) = (P_{\mathscr{E}&#39;}^{\mathscr{B}&#39;})^{-1} .&amp;nbsp;\mathrm{Mat}_{\mathscr{E}, \mathscr{E}&#39;}(f) .&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
           <mxGeometry y="250" width="570" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hLjxK593YsyA389L9R4K-78" target="hLjxK593YsyA389L9R4K-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-78" value="Noyau, Image, rang d&#39;une matrice" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
           <mxGeometry y="6160" width="570" height="300" as="geometry">
             <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
@@ -590,7 +593,7 @@
         <mxCell id="hLjxK593YsyA389L9R4K-87" value="&lt;b&gt;Rang&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
           <mxGeometry y="210" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-88" value="$$&amp;nbsp;\mathrm{rang}(A) \overset{\mathrm{Def}}{=} \mathrm{dim~Im}(A) \leq \mathrm{min}(n,p) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
+        <mxCell id="hLjxK593YsyA389L9R4K-112" value="$$&amp;nbsp;\mathrm{rang}(A) \overset{\mathrm{Def}}{=} \mathrm{dim~Im}(A) \leq \mathrm{min}(n,p) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-78">
           <mxGeometry y="250" width="570" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-89" value="Matrices équivalentes et matrices semblables" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
@@ -639,6 +642,17 @@
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-109" value="$$&amp;nbsp;\mathrm{rang}(A) = r~ \Longleftrightarrow~A~\text{est équivalente à}~J_{n,p,r} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-110">
           <mxGeometry y="30" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-113" value="&lt;b&gt;Propriété !!!&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="6510" width="570" height="170" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-116" value="La multiplication par une matrice inversible ou la transposition conserve le rang." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-113">
+          <mxGeometry y="30" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-114" value="$$&amp;nbsp;\forall P \in \mathrm{GL}_p(\mathbb{K}),&amp;nbsp;\forall Q \in \mathrm{GL}_n(\mathbb{K}),\mathrm{rang}(A.P) = \mathrm{rang}(Q.A) = \mathrm{rang}(A) $$&lt;br&gt;\( \forall A \in \mathrm{M}_{n,p}(\mathbb{K}), \mathrm{rang}(^tA) = \mathrm{rang}(A) \)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-113">
+          <mxGeometry y="70" width="570" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
