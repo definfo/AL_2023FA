@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T14:38:21.550Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="3857pqRpNJecKrfqzOVG" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T15:34:01.702Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="yU-MvmBfDpzhEKde5EH-" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
-    <mxGraphModel dx="1656" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+    <mxGraphModel dx="1307" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -695,15 +695,15 @@
           <mxGeometry y="130" width="570" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-133" value="Forme p-linéaires" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry y="8110" width="570" height="170" as="geometry">
+          <mxGeometry y="8160" width="570" height="380" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-134" value="La multiplication par une matrice inversible ou la transposition conserve le rang." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
-          <mxGeometry y="30" width="570" height="40" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-134" value="On appelle &lt;i&gt;forme p-linéaire sur&lt;/i&gt; \(E\) toute application :&lt;br&gt;$$ \phi : \left\{&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;amp;E^p \rightarrow \mathbb{K} \\&lt;br&gt;&amp;amp;(x_1, \cdots, x_p) \mapsto \phi(x_1, \cdots, x_p)&lt;br&gt;\end{aligned} \right.&lt;br&gt;$$ telle que \(\forall (x_1, \cdots, x_p) \in E^p, \forall k \in [[1,p]],\)&lt;br&gt;$$ \phi_k : \left\{&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;amp;E \rightarrow \mathbb{K} \\&lt;br&gt;&amp;amp;x \mapsto \phi(x_1, \cdots, x_{k-1}, x_k, x_{k+1}, \cdots, x_p)&lt;br&gt;\end{aligned} \right.&lt;br&gt;$$ soit linéaire&lt;br&gt;On note \(\mathscr{L}_p(E,\mathbb{K})\) l&#39;ensemble des formes p-linéaires sur \(E\)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
+          <mxGeometry y="30" width="570" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-135" value="$$&amp;nbsp;\forall P \in \mathrm{GL}_p(\mathbb{K}),&amp;nbsp;\forall Q \in \mathrm{GL}_n(\mathbb{K}),\mathrm{rang}(A.P) = \mathrm{rang}(Q.A) = \mathrm{rang}(A) $$&lt;br&gt;\( \forall A \in \mathrm{M}_{n,p}(\mathbb{K}), \mathrm{rang}(^tA) = \mathrm{rang}(A) \)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
-          <mxGeometry y="70" width="570" height="100" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-135" value="Dimension de l&#39;espace des formes n-linéaires antisymétriques (alternées)&lt;br&gt;&lt;br&gt;\(\mathrm{dim} \mathscr{A}_n(E, \mathbb{K})=1\) (facile à retrouver par définition de forme p-linéaire)&lt;br&gt;$$ D : \left\{&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;amp;E^n \rightarrow \mathbb{K} \\&lt;br&gt;&amp;amp;(x_1, \cdots, x_n) \mapsto \textstyle{\sum_{\sigma \in \mathfrak{S}_n}} \varepsilon(\sigma) a_{\sigma(1),1} \cdots a_{\sigma(n),n}&lt;br&gt;\end{aligned} \right.&lt;br&gt;$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-133">
+          <mxGeometry y="240" width="570" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-138" value="Chapitre 3" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
           <mxGeometry x="480" y="7770" width="240" height="200" as="geometry" />
@@ -712,12 +712,83 @@
           <mxGeometry x="55" y="85" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-140" value="Permutation et groupe symétrique" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry y="7990" width="570" height="70" as="geometry">
+          <mxGeometry y="8040" width="570" height="70" as="geometry">
             <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-141" value="(Omit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-140">
           <mxGeometry y="30" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-147" value="Déterminant" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="8590" width="570" height="340" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-145" value="On appelle &lt;i&gt;déterminant des vecteurs &lt;/i&gt;\((x_1, \cdots, x_n)\)&lt;i&gt; dans la base &lt;/i&gt;\(\mathscr{E}\) et on note :&lt;br&gt;$$ \mathrm{det}_{\mathscr{E}}(x_1, \cdots, x_n) = \sum_{\sigma \in \mathfrak{S}_n} \varepsilon(\sigma) \prod_{j=1}^n a_{\sigma(j),j}&lt;br&gt;$$&lt;br&gt;$$\begin{aligned}&lt;br&gt;\mathrm{det}_{\mathscr{E}}(x_1, \cdots, x_n) \in \mathbb{K} \\&lt;br&gt;\mathrm{det}_{\mathscr{E}} \in \mathscr{A}_n(E, \mathbb{K})&lt;br&gt;\end{aligned}$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-147">
+          <mxGeometry y="30" width="570" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-146" value="Théorème:&lt;br&gt;$$\begin{aligned}&lt;br&gt;&amp;amp;A~\text{est inversible}~~\Longleftrightarrow~~\mathrm{det}(A) \neq 0, \mathrm{det}(A^{-1}) = \frac{1}{\mathrm{det}(A)} \\&lt;br&gt;&amp;amp;\text{(Déterminant d&#39;une matrice par produit scalaire,} \\&lt;br&gt;&amp;amp;\text{produit de deux matrices, puissance, transposition)}&lt;br&gt;\end{aligned}$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-147">
+          <mxGeometry y="180" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-149" value="Méthode de calcul (à connaître par cœur)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-147">
+          <mxGeometry y="310" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-150" value="Chapitre 4" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="480" y="9020" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-151" value="Espaces euclidiens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-150">
+          <mxGeometry x="40" y="85" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-152" value="Produit scalaire sans contrainte de dimension (e.v. préhilbertien réel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry y="9250" width="570" height="180" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-153" value="L&#39;application \( \phi \) définie sur \(E \times E\) dans \(\mathbb{R}\) bilinéaire, symétrique, positive, &lt;b&gt;définie&lt;/b&gt; est dites &lt;i&gt;produit scalaire&lt;/i&gt;.&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;Définie : \(\phi(x,x) = 0 \Rightarrow x = 0_E\)&lt;br&gt;&lt;br&gt;e.v. préhilbertien réel = e.v. + produit scalaire" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-152">
+          <mxGeometry y="30" width="570" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-156" value="Norme euclidienne dans un e.v. préhilbertien réel, Identité de la médiane" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="9250" width="570" height="160" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-157" value="$$&lt;br&gt;\forall (x,y) \in E^2, ||x + y||^2 +&amp;nbsp;||x - y||^2 = 2(||x||^2 + ||y||^2).&lt;br&gt;$$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-156">
+          <mxGeometry y="30" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-159" value="Un vecteur unitaire : \(||x|| = 1\)&lt;br&gt;Deux vecteurs orthogonaux : \(\phi(x,y) = 0, x \perp y\))&lt;br&gt;Une famille de vecteurs orthogonale : 2 à 2 orthogonaux&lt;br&gt;Une famille de vecteurs orthonormale : orthogonale + tous unitaires" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-156">
+          <mxGeometry y="80" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-160" value="Procédé d&#39;orthonormalisation de Schmidt (à connaître par cœur)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="9410" width="570" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-161" value="(Pour construire une base orthonormale)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-160">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-164" value="Vecteur normal à l&#39;hyperplan \(H\)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="10" y="9500" width="570" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-165" value="(vecteur non nul et orthogonal à \(H\))" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-164">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-166" value="Projection orthogonale sur un sous-espace et somme directe orthogonale" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="9470" width="570" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-167" value="(Omit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-166">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-168" value="Distance à un sous-espace vectoriel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
+          <mxGeometry x="630" y="9530" width="570" height="60" as="geometry">
+            <mxRectangle x="80" y="1600" width="270" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-169" value="(Omit)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-168">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
