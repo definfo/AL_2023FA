@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T11:33:51.196Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="0GDuXKHDmDf-nxmahjdD" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:00:06.954Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="WxlEzmIvPOoZ5ba_F0uO" version="22.1.17" type="github">
   <diagram name="第 1 页" id="5xE2pu7hxx_X-OzfAx90">
     <mxGraphModel dx="1307" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
       <root>
@@ -455,7 +455,7 @@
         <mxCell id="hLjxK593YsyA389L9R4K-30" value="3.(Base canonique)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
           <mxGeometry y="570" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-32" value="4.&lt;br&gt;&lt;br&gt;L&#39;endomorphisme : On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(f) \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E, E&#39;}}(f) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;rounded=0;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
+        <mxCell id="hLjxK593YsyA389L9R4K-32" value="4.&lt;br&gt;&lt;br&gt;L&#39;endomorphisme : On appelle &lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;matrice de &lt;/i&gt;\(f\)&lt;i&gt; dans la base&lt;/i&gt; &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;\(\mathscr{E}\) et on note :&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-style: italic;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;br&gt;$$ \mathrm{Mat}_{\mathscr{E}}(f) \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E, E}}(f) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;rounded=0;" vertex="1" parent="hLjxK593YsyA389L9R4K-20">
           <mxGeometry y="610" width="570" height="90" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-33" value="Propriété" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
@@ -550,16 +550,25 @@
             <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-66" value="\( E~\text{est un}~\mathbb{K} \text{-e.v.}~\text{de dimension finie},\mathscr{E}~\text{une base de}~E, f \in \mathscr{L} (E). \) Alors \(f\) est inversible SSI \(\mathrm{Mat}_{\mathscr{E}}(f)\) est inversible. Et :&lt;br&gt;$$&amp;nbsp;\mathrm{Mat}_{\mathscr{E}}(f^{-1}) = (\mathrm{Mat}_{\mathscr{E}}(f))^{-1} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-65">
+        <mxCell id="hLjxK593YsyA389L9R4K-66" value="\( E~\text{est un}~\mathbb{K} \text{-e.v.}~\text{de dimension finie},\mathscr{E}~\text{une base de}~E, f \in \mathscr{L} (E). \) Alors \(f\) est inversible &lt;b&gt;SSI&lt;/b&gt; \(\mathrm{Mat}_{\mathscr{E}}(f)\) est inversible. Et :&lt;br&gt;$$&amp;nbsp;\mathrm{Mat}_{\mathscr{E}}(f^{-1}) = (\mathrm{Mat}_{\mathscr{E}}(f))^{-1} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-65">
           <mxGeometry y="30" width="570" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hLjxK593YsyA389L9R4K-73" value="&lt;b&gt;Matrice de passage&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="1">
-          <mxGeometry y="5800" width="570" height="140" as="geometry">
+          <mxGeometry y="5800" width="570" height="290" as="geometry">
             <mxRectangle y="5340" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hLjxK593YsyA389L9R4K-74" value="\(&amp;nbsp;\mathscr{E}=(e_1, \cdots, e_p), \mathscr{B}=(b_1, \cdots, b_p)~\text{deux bases de}~E, \) (avec \(p= \mathrm{dim}~E\)). On appelle matrice de passage de \(mathscr{E}\) à \(\mathscr{B}\) et on note :&lt;br&gt;$$ P_{\mathscr{E}}^{\mathscr{B}} \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E}}(\mathscr{B}) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
-          <mxGeometry y="30" width="570" height="110" as="geometry" />
+        <mxCell id="hLjxK593YsyA389L9R4K-74" value="\(&amp;nbsp;\mathscr{E}=(e_1, \cdots, e_p), \mathscr{B}=(b_1, \cdots, b_p)~\text{deux bases de}~E, \) (avec \(p= \mathrm{dim}~E\)). On appelle matrice de passage de \(\mathscr{E}\) à \(\mathscr{B}\) et on note :&lt;br&gt;$$ P_{\mathscr{E}}^{\mathscr{B}} \overset{\mathrm{Not}}{=} \mathrm{Mat}_{\mathscr{E}}(\mathscr{B}) $$&lt;br&gt;( Inversible, \( (P_{\mathscr{E}}^{\mathscr{B}})^{-1} =&amp;nbsp;P_{\mathscr{B}}^{\mathscr{E}} \) )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
+          <mxGeometry y="30" width="570" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-76" value="&lt;b&gt;Changement de Base&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
+          <mxGeometry y="180" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-77" value="$$&amp;nbsp;\mathrm{Mat}_{\mathscr{E}}(x) =&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} .&amp;nbsp;\mathrm{Mat}_{\mathscr{B}}(x) $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
+          <mxGeometry y="210" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLjxK593YsyA389L9R4K-75" value="$$&amp;nbsp;\mathrm{Mat}_{\mathscr{B}, \mathscr{B}&#39;}(f) = (P_{\mathscr{E}&#39;}^{\mathscr{B}&#39;})^{-1} .&amp;nbsp;\mathrm{Mat}_{\mathscr{E}, \mathscr{E}&#39;}(f) .&amp;nbsp;P_{\mathscr{E}}^{\mathscr{B}} $$" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans;" vertex="1" parent="hLjxK593YsyA389L9R4K-73">
+          <mxGeometry y="250" width="570" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
