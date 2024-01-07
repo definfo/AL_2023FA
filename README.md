@@ -1,1 +1,1 @@
-SJTU SPEIT DM Finale Algèbre Linéaire - 2023-2024-1
+SJTU-SPEIT DM Finale Algèbre Linéaire - 2023-2024-1
